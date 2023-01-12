@@ -5,7 +5,7 @@ import Dashboard from "./pages/Dashboard/Dashboard";
 
 function App() {
   return (
-    <div>
+    <div className="bg-slate-100">
       <Header />
       <Routes>
         <Route path="dashboard" element={<Dashboard />} />
