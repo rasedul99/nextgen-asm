@@ -1,4 +1,5 @@
 import React from "react";
+import ExpenseChart from "../../component/ExpenseChart";
 import StatusCard from "../../component/StatusCard";
 import TaskSummary from "../../component/TaskSummary";
 
@@ -13,7 +14,10 @@ const Dashboard = () => {
         <StatusCard title="Employees on Leave" employee="15" />
         <StatusCard title="New Expense Request" employee="5" />
       </div>
-      <TaskSummary />
+      <div className="flex gap-3 mt-12">
+        <ExpenseChart />
+        <TaskSummary />
+      </div>
     </div>
   );
 };
