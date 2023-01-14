@@ -6,9 +6,9 @@ import vector from "../../Assets/Vector.png";
 
 const Header = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white ">
       <div className="flex justify-between items-center  w-11/12 mx-auto  h-20">
-        <div className="border border-gray-400 rounded px-2 w-1/3">
+        <div className="border border-gray-400 rounded px-2  max-w-fit">
           <img src={search} className="inline w-6 h-6 text-gray-400" />
           <input
             type="text"

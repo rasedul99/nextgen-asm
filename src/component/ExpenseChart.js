@@ -14,7 +14,7 @@ const ExpenseChart = () => {
   ];
   return (
     <div>
-      <div className="bg-white w-[600px] h-[256] py-4 px-2">
+      <div className="bg-white  h-[256] py-4 px-2">
         <div className="flex justify-between">
           {" "}
           <div className="mx-14">Day Week Month Year</div>
@@ -24,7 +24,7 @@ const ExpenseChart = () => {
         </div>
 
         <div className="mx-14">৳45,000</div>
-        <AreaChart width={590} height={250} data={data}>
+        <AreaChart width={400} height={250} data={data}>
           <Area dataKey="expense" fill="#1E2772" stroke="blue" />
           <CartesianGrid stroke="#ccc" />
           <XAxis dataKey="date" />

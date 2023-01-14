@@ -4,7 +4,7 @@ import usergroup from "../Assets/usergroup.png";
 
 const StatusCard = ({ title, employee }) => {
   return (
-    <div className="bg-white rounded-[10px] w-72 h-64 p-5">
+    <div className="bg-white rounded-[10px]  h-64 p-5">
       <div className="flex items-center gap-3 ">
         <img src={multiperson} className="w-3 h-3 text-xs font-medium" />
         <p className="font-medium text-xs text-[#A5A5A5]">{title}</p>

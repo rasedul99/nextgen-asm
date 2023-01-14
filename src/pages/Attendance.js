@@ -4,7 +4,7 @@ import setting from "../Assets/setting.png";
 
 const Attendance = () => {
   return (
-    <div className="px-10">
+    <div className="p-10 ">
       <div className="flex justify-between my-20">
         <div>
           <h1 className="font-bold text-4xl">Dashboard</h1>
